@@ -32,7 +32,7 @@ ynh_script_progression "Installing the app..."
 pushd "$install_dir"
  	ynh_hide_warnings ynh_exec_as_app npm install
  	ynh_hide_warnings ynh_exec_as_app npm run build
- 	if [ ! -d $data_dir/mysite ]; then
+ 	if [ ! -e $data_dir/mysite ]; then
     	$install_dir/bin/docsify init "$data_dir/mysite" --local
 	fi
 popd
