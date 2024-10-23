@@ -50,7 +50,7 @@ ram.runtime = "50M"
     url = "https://github.com/docsifyjs/docsify-cli/archive/refs/tags/v4.4.4.tar.gz"
     sha256 = "89e627c366e600b64f811495c0487ff8e38071dbec5f9a24aa660a77613dd0b8"
 
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
