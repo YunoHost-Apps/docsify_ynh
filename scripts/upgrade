@@ -27,6 +27,8 @@ pushd "$install_dir"
  	ynh_hide_warnings ynh_exec_as_app npm run build
 popd
 
+chown -R "$app:www-data" "$install_dir"
+
 #=================================================
 # END OF SCRIPT
 #=================================================
