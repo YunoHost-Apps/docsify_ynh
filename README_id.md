@@ -36,7 +36,7 @@ Docsify turns one or more Markdown files into a Website, with no build process r
 
 ## Dokumentasi dan sumber daya
 
-- Website aplikasi resmi: <https://docsify.js.org/#/>
+- Website aplikasi resmi: <https://docsify.js.org/>
 - Dokumentasi admin resmi: <https://docsify.js.org/#/?id=docsify>
 - Depot kode aplikasi hulu: <https://github.com/docsifyjs/docsify/>
 - Gudang YunoHost: <https://apps.yunohost.org/app/docsify>

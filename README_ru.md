@@ -36,7 +36,7 @@ Docsify turns one or more Markdown files into a Website, with no build process r
 
 ## Документация и ресурсы
 
-- Официальный веб-сайт приложения: <https://docsify.js.org/#/>
+- Официальный веб-сайт приложения: <https://docsify.js.org/>
 - Официальная документация администратора: <https://docsify.js.org/#/?id=docsify>
 - Репозиторий кода главной ветки приложения: <https://github.com/docsifyjs/docsify/>
 - Магазин YunoHost: <https://apps.yunohost.org/app/docsify>

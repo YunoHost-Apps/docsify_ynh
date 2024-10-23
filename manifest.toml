@@ -13,7 +13,7 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
-website = "https://docsify.js.org/#/"
+website = "https://docsify.js.org/"
 admindoc = "https://docsify.js.org/#/?id=docsify"
 code = "https://github.com/docsifyjs/docsify/"
 
@@ -50,13 +50,16 @@ ram.runtime = "50M"
     url = "https://github.com/docsifyjs/docsify-cli/archive/refs/tags/v4.4.4.tar.gz"
     sha256 = "89e627c366e600b64f811495c0487ff8e38071dbec5f9a24aa660a77613dd0b8"
 
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
     [resources.install_dir]
     group = "www-data:r-x"
-    
+
+    [resources.data_dir]
+    group = "www-data:r-x"
+
     [resources.permissions]
     main.url = "/"
 

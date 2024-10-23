@@ -24,10 +24,6 @@ ynh_script_progression "Adding system configurations related to $app..."
 
 ynh_config_add_nginx
 
-ynh_config_add_systemd
-
-yunohost service add "$app" --description="Documentation site generator" --log="/var/log/$app/$app.log"
-
 #=================================================
 # INSTALL DOCSIFY
 #=================================================
@@ -36,17 +32,13 @@ ynh_script_progression "Installing the app..."
 pushd "$install_dir"
  	ynh_hide_warnings ynh_exec_as_app npm install
  	ynh_hide_warnings ynh_exec_as_app npm run build
-	$install_dir/bin/docsify init "$install_dir/mysite" --local
+ 	if [ ! -f $data_dir/mysite ]; then
+    	$install_dir/bin/docsify init "$data_dir/mysite" --local
+	fi
 popd
 
 chown -R "$app:www-data" "$install_dir"
-
-#=================================================
-# START SYSTEMD SERVICE
-#=================================================
-ynh_script_progression "Starting $app's systemd service..."
-
-ynh_systemctl --service="$app" --action="start" --log_path="systemd"
+chown -R "$app:www-data" "$data_dir"
 
 #=================================================
 # END OF SCRIPT
