@@ -13,7 +13,7 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
-website = "https://docsify.js.org/#/"
+website = "https://docsify.js.org/"
 admindoc = "https://docsify.js.org/#/?id=docsify"
 code = "https://github.com/docsifyjs/docsify/"
 
