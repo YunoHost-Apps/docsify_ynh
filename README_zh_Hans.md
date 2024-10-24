@@ -28,7 +28,7 @@ Docsify turns one or more Markdown files into a Website, with no build process r
 - Emoji support
 
 
-**分发版本：** 4.4.4~ynh1
+**分发版本：** 4.13.1~ynh1
 
 ## 截图
 
