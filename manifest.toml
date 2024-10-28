@@ -7,7 +7,7 @@ name = "Docsify"
 description.en = "Documentation site generator"
 description.fr = "Documentation site generator"
 
-version = "4.4.4~ynh1"
+version = "4.13.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -47,8 +47,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/docsifyjs/docsify-cli/archive/refs/tags/v4.4.4.tar.gz"
-    sha256 = "89e627c366e600b64f811495c0487ff8e38071dbec5f9a24aa660a77613dd0b8"
+    url = "https://github.com/docsifyjs/docsify/archive/refs/tags/v4.13.1.tar.gz"
+    sha256 = "f288d00a90a6569b8ad30105d97bdb6f70280b963b38b16da7c2785589513214"
 
     autoupdate.strategy = "latest_github_tag"
 
