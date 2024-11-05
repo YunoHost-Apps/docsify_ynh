@@ -7,7 +7,7 @@ name = "Docsify"
 description.en = "Documentation site generator"
 description.fr = "Documentation site generator"
 
-version = "4.4.4~ynh1"
+version = "4.4.4~ynh2"
 
 maintainers = ["eric_G"]
 
