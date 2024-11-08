@@ -28,7 +28,7 @@ Docsify transforme un ou plusieurs fichiers Markdown en un site Web, sans aucun 
 - Prise en charge des émojis
 
 
-**Version incluse :** 4.4.4~ynh2
+**Version incluse :** 4.4.4~ynh3
 
 ## Captures d’écran
 
