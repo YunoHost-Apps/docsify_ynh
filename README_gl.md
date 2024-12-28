@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Docsify para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/docsify.svg)](https://ci-apps.yunohost.org/ci/apps/docsify/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/docsify.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/docsify.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/docsify)](https://ci-apps.yunohost.org/ci/apps/docsify/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/docsify)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/docsify)
 
 [![Instalar Docsify con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=docsify)
 
@@ -38,7 +40,7 @@ Docsify turns one or more Markdown files into a Website, with no build process r
 
 - Web oficial da app: <https://docsify.js.org/>
 - Documentación oficial para admin: <https://docsify.js.org/#/?id=docsify>
-- Repositorio de orixe do código: <https://github.com/docsifyjs/docsify/>
+- Repositorio de orixe do código: <https://github.com/docsifyjs/docsify-cli/>
 - Tenda YunoHost: <https://apps.yunohost.org/app/docsify>
 - Informar dun problema: <https://github.com/YunoHost-Apps/docsify_ynh/issues>
 
