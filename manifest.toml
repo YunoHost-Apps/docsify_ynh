@@ -15,7 +15,7 @@ maintainers = ["eric_G"]
 license = "MIT"
 website = "https://docsify.js.org/"
 admindoc = "https://docsify.js.org/#/?id=docsify"
-code = "https://github.com/docsifyjs/docsify/"
+code = "https://github.com/docsifyjs/docsify-cli/"
 
 [integration]
 yunohost = ">= 12.1.17"

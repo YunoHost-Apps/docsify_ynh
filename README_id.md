@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Docsify untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/docsify.svg)](https://ci-apps.yunohost.org/ci/apps/docsify/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/docsify.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/docsify.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/docsify)](https://ci-apps.yunohost.org/ci/apps/docsify/)
+![Status kerja](https://apps.yunohost.org/badge/state/docsify)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/docsify)
 
 [![Pasang Docsify dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=docsify)
 
@@ -38,7 +40,7 @@ Docsify turns one or more Markdown files into a Website, with no build process r
 
 - Website aplikasi resmi: <https://docsify.js.org/>
 - Dokumentasi admin resmi: <https://docsify.js.org/#/?id=docsify>
-- Depot kode aplikasi hulu: <https://github.com/docsifyjs/docsify/>
+- Depot kode aplikasi hulu: <https://github.com/docsifyjs/docsify-cli/>
 - Gudang YunoHost: <https://apps.yunohost.org/app/docsify>
 - Laporkan bug: <https://github.com/YunoHost-Apps/docsify_ynh/issues>
 
