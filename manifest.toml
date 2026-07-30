@@ -7,7 +7,7 @@ name = "Docsify"
 description.en = "Documentation site generator"
 description.fr = "Documentation site generator"
 
-version = "4.4.4~ynh2"
+version = "4.4.4~ynh3"
 
 maintainers = ["eric_G"]
 
@@ -18,7 +18,7 @@ admindoc = "https://docsify.js.org/#/?id=docsify"
 code = "https://github.com/docsifyjs/docsify-cli/"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -64,3 +64,6 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
+
+    [resources.nodejs]
+    version = "20"
